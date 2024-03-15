@@ -1,0 +1,2 @@
+# fluent-python
+ - python study
