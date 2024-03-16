@@ -5,7 +5,7 @@
 - Study python in depth
 - language : python
 - version : <br>
-    python 3.9.6 
+    - python 3.9.6 
 
 ## 목차
 - PART1.overview
@@ -20,6 +20,5 @@
     - chapter5.1-Class-Function
     - chapter6.Design Pattern of 1-Class-Function
     - chapter7.Decorater & Closure 
-    - 작성중
+    - ~ing
 
-- 작성중
