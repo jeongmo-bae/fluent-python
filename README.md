@@ -8,7 +8,7 @@
     - python 3.9.6 
 
 ## Contents
-- PART1.overview
+- PART1.Overview
     - chapter1.Python Data Model
 
 - PART2.Data Structures
