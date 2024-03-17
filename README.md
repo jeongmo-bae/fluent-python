@@ -7,7 +7,7 @@
 - version : <br>
     - python 3.9.6 
 
-## 목차
+## Contents
 - PART1.overview
     - chapter1.Python Data Model
 
