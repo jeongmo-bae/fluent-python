@@ -25,7 +25,7 @@ ___
 ### 2. 특별 메서드는 어떻게 사용되나
 ___
   - 2-1.Collection emulation(\_\_len\_\_ / \_\_getitem\_\_)
-    
+    collection.namedtuple 로 이름이 있는 튜플(시퀀스) 객체 생성      
     ```python
     Card = collections.namedtuple('Card', ['rank', 'suit'])
     class FrenchDeck:
@@ -35,18 +35,18 @@ ___
             self._cards = [Card(rank, suit) for suit in self.suits
                                             for rank in self.ranks]
     ```
-    - collection.namedtuple 로 이름이 있는 튜플(시퀀스) 객체 생성  
+    특별 메서드 \_\_len\_\_() 정의 
     ```python
     # __len__() 정의 시 len() 함수 사용 가능
     def __len__(self):
         return len(self._cards)
     ```
-    특별 메서드 \_\_len\_\_() 정의 
+    특별 메서드 \_\_getitem\_\_() 정의
     ```python
     def __getitem__(self, position):
         return self._cards[position] 
     ```
-    - 특별 메서드 \_\_getitem\_\_() 정의
+    \_\_len\_\_() , \_\_getitem\_\_() 으로 다양한 기능(반복/슬라이싱/표준 라이브러리 등) 활용 가능 
     ```python
     for card in deck[12:26:13]:
         print(card)
@@ -60,8 +60,8 @@ ___
     Card(rank='8', suit='spades')
     '''
     ```
-    - \_\_len\_\_() , \_\_getitem\_\_() 으로 다양한 기능(반복/슬라이싱/표준 라이브러리 등) 활용 가능 
-    - ref> 컬렉션에 \_\_contains\_\_() 메서드가 없으면 in 연산자는 차례대로 검색함
+    - 컬렉션에 \_\_contains\_\_() 메서드가 없으면 in 연산자는 차례대로 검색함
+
 
   - 2-2.문자열 표현
     - ㅁㄴㅇㅁㄴㅇ
