@@ -13,6 +13,11 @@ ___
 
 <br></br>
 
+### related
+___
+
+- [01_Python_Data_Model_Notebook.ipynb](/Code/01_Python_Data_Model_Notebook.ipynb)
+
 ### 1. 파이썬 데이터 모델
 ___
   -
