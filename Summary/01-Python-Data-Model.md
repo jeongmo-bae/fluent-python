@@ -25,7 +25,7 @@ ___
 ### 2. 특별 메서드는 어떻게 사용되나
 ___
   - 2-1.Collection emulation(\_\_len\_\_ / \_\_getitem\_\_)
-    <br>>#collection.namedtuple 로 이름이 있는 튜플(시퀀스) 객체 생성
+    <br>#collection.namedtuple 로 이름이 있는 튜플(시퀀스) 객체 생성
     ```python
     Card = collections.namedtuple('Card', ['rank', 'suit'])
     class FrenchDeck:
@@ -41,7 +41,7 @@ ___
     def __len__(self):
         return len(self._cards)
     ```
-    #특별 메서드 \_\_getitem\_\_() 정의<
+    #특별 메서드 \_\_getitem\_\_() 정의
     ```python
     def __getitem__(self, position):
         return self._cards[position] 
