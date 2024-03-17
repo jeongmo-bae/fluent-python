@@ -18,6 +18,8 @@ ___
 
 - [01_Python_Data_Model_Notebook.ipynb](/Code/01_Python_Data_Model_Notebook.ipynb)
 
+<br></br>
+
 ### 1. 파이썬 데이터 모델
 ___
   -
