@@ -9,7 +9,7 @@
 
 ## 목차
 - PART1.overview
-    - chapter1.Data Model
+    - chapter1.Python Data Model
 
 - PART2.Data Structures
     - chapter2.Array & Sequence
