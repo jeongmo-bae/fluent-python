@@ -13,7 +13,7 @@ ___
 
 <br></br>
 
-### related
+### code files
 ___
 
 - [01_Python_Data_Model_Notebook.ipynb](/Code/01_Python_Data_Model_Notebook.ipynb)
@@ -69,12 +69,8 @@ ___
     ```
     - 컬렉션에 \_\_contains\_\_() 메서드가 없으면 in 연산자는 차례대로 검색함
 
-
-  - 2-2.문자열 표현
-    - ㅁㄴㅇㅁㄴㅇ
-
-  - 2-3.산술 연산자
-    - ㅁㄴㅇㅁㄴㅇ
+  - 2-2~4. 문자열 표현 / 숫자 연산자 / 사용자 정의형 불리언 값
+    - [code files](#code-files) 로 대체
 
   > 특별 메서드를 구현하면 사용자 정의 객체도 내장형 객체처럼 작동하여, **파이썬스러운** 표현력의 코딩 스타일 구사 가능 <br>
   > FrenchDeck이 암묵적으로 object를 상속 받지만, 상속 대신 데이터 모델과 구성을 이용하여 기능을 가져옴 <br>
